@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/all_mdb.css"/>
+
+    <!--icon-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <title>Liyang's mdb test_home</title>
+</head>
+<body>
+    <!--header-->
+    <header class="all_header">
+
+        <!--header_content-->
+        <div class="header_top">
+            <div class="sub_media">
+
+                <div class="sub_media_left">
+                    <ul class="sub_media_left_list">
+                        <li class="movie_db_logo">
+                            <a href="#">
+                                <img src="https://www.themoviedb.org/assets/1/v4/logos/primary-green-d70eebe18a5eb5b166d5c1ef0796715b8d1a2cbc698f96d311d62f894ae87085.svg" alt="The Movie Database (TMDb)">
+                            </a>
+                        </li>
+                        <li class="discover_index">
+                            <a href="#">DISCOVER</a>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a href="html/movie_popular.html">MOVIES</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">TV shows</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="movies_index">
+                            <a href="html/movie_popular.html">MOVIES</a>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a href="html/movie_popular.html">Popular</a>
+                                    </li>
+                                    <li>
+                                        <a href="html/top.html">Top Rated</a>
+                                    </li>
+                                    <li>
+                                        <a href="html/upcoming.html">Upcoming</a>
+                                    </li>
+                                    <li>
+                                        <a href="html/now.html">Now Playing</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="tv_index">
+                            <a href="#">TV SHOWS</a>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a href="#">Popular</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Top Rated</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">On TV</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Airing Today</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="people_index">
+                            <a href="#">PEOPLE</a>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a href="#">Popular People</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+
+                <div class="sub_media_right">
+                    <!--right_top-->
+                    <div class="sub_media_right_top">
+                        <ul>
+                            <li>
+                                <a href="#">Apps</a>
+                            </li>
+                            <li>
+                                <a href="#">Forums</a>
+                            </li>
+                            <li>
+                                <a href="#">Leaderboard</a>
+                            </li>
+                            <li>
+                                <a href="#">Contribute</a>
+                            </li>
+                            <li>
+                                <a href="#">API</a>
+                            </li>
+                            <li>
+                                <a href="#">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--right_bottom-->
+                    <div class="sub_media_right_bottom">
+                        <ul>
+                            <li>
+                                <div class="movie_plus">
+                                    <a href="#">
+                                        <span>+</span>
+                                    </a>
+                                    <div>
+                                        <p>Can't find a movie or TV show?
+                                        Login to create it.</p>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">EN</a>
+                            </li>
+                            <li>
+                                <a href="#">LOGIN</a>
+                            </li>
+                            <li>
+                                <a href="#">SIGN UP</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--header_search_bar-->
+        <div class="header_search_bar">
+            <!--search_bar-->
+            <div class="search_bar">
+                <span style="font-size: 1em;">
+                    <i class="fas fa-search"></i>
+                </span>
+
+                <form action="" style="display:inline-block;">
+                    <input type="text" id="mdb_search" placeholder="Search for a movie, tv show, person...">
+                </form>
+
+                <span style="font-size: 1em;">
+                    <i class="fas fa-times"></i>
+                </span>
+            </div>
+        </div>
+
+        <!--search_bar_list-->
+        <!--search_list-->
+        <div class="search_bar_list">
+            <div class="search_bar_list_title">
+                <div>
+                    <h2>Trending Searches</h2>
+                </div>
+            </div>
+
+
+            <ul>
+                <li>
+                    <a>
+                        <span style="font-size: 1em;">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <span>Mission: Impossible - Fallout</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span style="font-size: 1em;">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <span>The Christmas Chronicles</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span style="font-size: 1em;">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <span>The Nun</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span style="font-size: 1em;">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <span>Venom</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span style="font-size: 1em;">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <span>Cristine Prosperi</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span style="font-size: 1em;">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <span>Incredibles 2</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span style="font-size: 1em;">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <span>Peppermint</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span style="font-size: 1em;">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <span>Ralph Breaks the Internet</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span style="font-size: 1em;">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <span>The Meg</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span style="font-size: 1em;">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <span>The Equalizer 2</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </header>
+
+
+
+    <!-----------------------content-------------------------->
+
+    <!----discussion---->
+    <div class="mdb_home_content">
+        <!--discussion-->
+        <div class="mdb_discussion">
+            <div>
+                <h2>Discussion</h2>
+                <p>
+                    <a href="#">CATCH UP NOW.</a>
+                </p>
+            </div>
+        </div>
+
+        <!--media-->
+        <div class="mdb_media">
+            <!--tv-->
+            <section class="index_tv">
+                <h2>On TV</h2>
+                <!--tv_content-->
+                <div>
+                    <!--first-->
+                    <div class="info_first index_tv_info_one">
+
+                        <a href="html/venom.html">
+                            <img src="https://image.tmdb.org/t/p/w500_and_h282_face/mmxxEpTqVdwBlu5Pii7tbedBkPC.jpg" alt="">
+                        </a>
+
+                        <span>
+                            <a href="html/venom.html">
+                                <img src="https://image.tmdb.org/t/p/w58_and_h87_bestv2/fki3kBlwJzFp8QohL43g9ReV455.jpg" alt="">
+                            </a>
+                            <div>
+                                <a href="html/venom.html">
+                                    <h3>The Flash</h3>
+                                </a>
+                                <a href="html/venom.html">
+                                    <p>New episode airs todays</p>
+                                </a>
+                            </div>
+                        </span>
+
+                    </div>
+                    <!--second-->
+                    <div class="info_second index_tv_info_second">
+                        <a href="html/venom.html">
+                            <img src="https://image.tmdb.org/t/p/w250_and_h141_face/lnnrirKFGwFW18GiH3AmuYy40cz.jpg" alt="">
+                        </a>
+                        
+                        <span>
+                            <a href="html/venom.html">
+                                <h3>The Simpsons</h3>
+                            </a>
+                            <a href="html/venom.html">
+                                <p>New episode airs in 6 days</p>
+                            </a>
+                        </span>
+                    </div>
+                    <!--third-->
+                    <div class="info_third index_tv_info_third">
+                        <a href="html/venom.html">
+                            <img src="https://image.tmdb.org/t/p/w250_and_h141_face/mQ9yeCuofNatSyErUKAPD1uOq8Q.jpg" alt="">
+                        </a>
+
+                        <span>
+                            <a href="html/venom.html">
+                                <h3>Doctor Who</h3>
+                            </a>
+                            <a href="html/venom.html">
+                                <p>New episode airs in 6 days</p>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <!--movie-->
+            <section class="index_movie">
+                <h2>In Theaters</h2>
+                <!--movie_content-->
+                <div>
+                    <!--second-->
+                    <div class="info_second index_movie_info_second">
+
+                        <a href="html/venom.html">
+                            <img src="https://image.tmdb.org/t/p/w250_and_h141_face/pbXgLEYh8rlG2Km5IGZPnhcnuSz.jpg" alt="">
+                        </a>
+
+                        <span>
+                            <a href="html/venom.html">
+                                <h3>Bohemian Rhapsody</h3>
+                            </a>
+                            <a href="html/venom.html">
+                                <p>Rami Malek, Gwilym Lee</p>
+                            </a>
+                        </span>
+
+                    </div>
+                    <!--third-->
+                    <div class="info_third index_movie_info_third">
+
+                        <a href="html/venom.html">
+                            <img src="https://image.tmdb.org/t/p/w250_and_h141_face/zRDkmww7Bu11wiz2g86RxSreiY4.jpg" alt="">
+                        </a>
+
+                        <span>
+                            <a href="html/venom.html">
+                                <h3>The Grinch</h3>
+                            </a>
+                            <a href="html/venom.html">
+                                <p>Benedict Cumberbatch, Cameron Seely</p>
+                            </a>
+                        </span>
+
+                    </div>
+
+                    <!--first-->
+                    <div class="info_first index_movie_info_one">
+
+                        <a href="html/venom.html">
+                            <img src="https://image.tmdb.org/t/p/w500_and_h282_face/xgbeBCjmFpRYHDF7tQ7U98EREWp.jpg" alt="">
+                        </a>
+
+                        <span>
+                            <a href="html/venom.html">
+                                <img src="https://image.tmdb.org/t/p/w58_and_h87_bestv2/uyJgTzAsp3Za2TaPiZt2yaKYRIR.jpg" alt="">
+                            </a>
+                            <div>
+                                <a href="html/venom.html">
+                                    <h3>Fantastic Beasts: The Crimes of Grindelwald</h3>
+                                </a>
+                                <a href="html/venom.html">
+                                    <p>Eddie Redmayne, Katherine Waterston, Alison Sudol</p>
+                                </a>
+                            </div>
+                        </span>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+
+        <!--index_sub_media-->
+        <div class="index_sub_media">
+
+            <!--index_sub_media_lists-->
+            <section class="index_sub_media_lists">
+
+                <h2>Featured Lists</h2>
+
+                <ul>
+                    <li>
+                        <a href="html/venom.html">
+                            <img src="https://image.tmdb.org/t/p/w92_and_h138_bestv2/wXmhSF2bajJ9Qc8IwbYnTQ3QYnE.jpg" alt="">
+                        </a>
+
+                        <div>
+                            <h3>
+                                <a href="#">AFI's 100 years... 100 laughs</a>
+                            </h3>
+                            <p>Some Like It Hot, Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb, Tootsie, 97 more...</p>
+
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <a href="html/venom.html">
+                            <img src="https://image.tmdb.org/t/p/w92_and_h138_bestv2/jE65k8TaMDI3ZraxwJDCFlVz3GG.jpg" alt="">
+                        </a>
+
+                        <div>
+                            <h3>
+                                <a href="#">Good Science Fiction Flicks</a>
+                            </h3>
+                            <p>Guardians of the Galaxy, X-Men: Days of Future Past, Star Wars: The Force Awakens, 126 more...</p>
+
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <a href="html/venom.html">
+                            <img src="https://image.tmdb.org/t/p/w92_and_h138_bestv2/jxfS4WLDBPY5hbosEDeCRQfE0gM.jpg" alt="">
+                        </a>
+
+                        <div>
+                            <h3>
+                                <a href="#">Greatest Twist Ending</a>
+                            </h3>
+                            <p>The Prestige, Shutter Island, Black Swan, 24 more...</p>
+
+                        </div>
+                    </li>
+                </ul>
+
+            </section>
+
+
+            <!--index_sub_media_users-->
+            <section class="index_sub_media_users">
+
+                <div>
+                    <h2>Top Users</h2>
+                    <a href="#">view all</a>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="#">Amanda</a>
+                        <span>(5621)</span>
+                    </li>
+
+                    <li>
+                        <a href="#">mrtextortexel</a>
+                        <span>(4558)</span>
+                    </li>
+
+                    <li>
+                        <a href="#">talestalker</a>
+                        <span>(4698)</span>
+                    </li>
+
+                    <li>
+                        <a href="#">lineker</a>
+                        <span>(3397)</span>
+                    </li>
+
+                    <li>
+                        <a href="#">Samara</a>
+                        <span>(3397)</span>
+                    </li>
+                </ul>
+
+
+            </section>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!--footer-->
+    <footer class="mdb_footer">
+        <nav class="footer_content">
+
+            <div class="join">
+                <img src="https://www.themoviedb.org/assets/1/v4/logos/primary-green-d70eebe18a5eb5b166d5c1ef0796715b8d1a2cbc698f96d311d62f894ae87085.svg" alt="#">
+                <a href="#">JOIN THE COMMUNITY</a>
+            </div>
+
+            <div>
+                <h3>THE BASICS</h3>
+                <ul>
+                    <li>
+                        <a href="#">About TMDb</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Support Forums</a>
+                    </li>
+                    <li>
+                        <a href="#">API</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h3>GET INVOLVED</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span style="font-size: 10px;">
+                                <i class="fas fa-asterisk"></i>
+                            </span>
+                            Contribution Bible
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">3rd Party Applications</a>
+                    </li>
+                    <li>
+                        <a href="#">Add New Movie</a>
+                    </li>
+                    <li>
+                        <a href="#">Add New TV Show</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>COMMUNITY</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Guidelines
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Leaderboard</a>
+                    </li>
+                    <li>
+                        <a href="#">Forums</a>
+                    </li>
+                    <li>
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#">Facebook</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h3>LEGAL</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                           Terms of Use
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </nav>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.js"></script>
+
+
+    <script src="js/all_mdb_home.js"></script>
+
+</body>
+</html>
